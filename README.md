@@ -20,19 +20,19 @@
 #### 2.假设表示(Hypothesis Representation)
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/logistic1.jpg)
 
-取值范围:`$0 <= h_\theta(x) <=1 $`
+取值范围:$$0 <= h_\theta(x) <=1 $$
 
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/logistic2.jpg)
 #### 3.决策边界(Decision Boundary)
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/logistic3.jpg)
 
-`$ h_\theta(x)>=0.5$` --> y=1  
-`$ h_\theta(x)< 0.5$` --> y=0
+$$ h_\theta(x)>=0.5$$ --> y=1  
+$$ h_\theta(x)< 0.5$$ --> y=0
 
-`$ g(Z)>=0.5$` --> when Z>=0  
-`$ h_\theta(x)=g(\theta^Tx)>= 0.5$` --> whenever `$\theta^Tx>=0$`  
-`$ g(Z)<0.5$` --> when Z<0  
-`$ h_\theta(x)=g(\theta^Tx)< 0.5$` --> whenever `$\theta^Tx<0 $`
+$$ g(Z)>=0.5$$ --> when Z>=0  
+$$ h_\theta(x)=g(\theta^Tx)>= 0.5$$ --> whenever $$\theta^Tx>=0$$  
+$$ g(Z)<0.5$$ --> when Z<0  
+$$ h_\theta(x)=g(\theta^Tx)< 0.5$$ --> whenever $$\theta^Tx<0 $$
 
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/e.jpg)
 
@@ -48,7 +48,7 @@
 
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/logistic6.jpg)
 #### 2.简化损失函数和梯度下降(Simplified Cost Function and Gradient Descent)
-`$ Cost(h_\theta(x),y)=-ylog(h_\theta(x))-(1-y)log(1-h_\theta(x))$`
+$$ Cost(h_\theta(x),y)=-ylog(h_\theta(x))-(1-y)log(1-h_\theta(x))$$
 
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/logistic7.jpg)
 #### 3.高级优化(Advanced Optimization)
