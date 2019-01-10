@@ -26,13 +26,13 @@
 #### 3.决策边界(Decision Boundary)
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/logistic3.jpg)
 
-$$ h_\theta(x)>=0.5$$ --> y=1  
-$$ h_\theta(x)< 0.5$$ --> y=0
+$$ h_\theta(x)>=0.5 --> y=1 $$
+$$ h_\theta(x)< 0.5 --> y=0 $$
 
-$$ g(Z)>=0.5$$ --> when Z>=0  
-$$ h_\theta(x)=g(\theta^Tx)>= 0.5$$ --> whenever $$\theta^Tx>=0$$  
-$$ g(Z)<0.5$$ --> when Z<0  
-$$ h_\theta(x)=g(\theta^Tx)< 0.5$$ --> whenever $$\theta^Tx<0 $$
+$$ g(Z)>=0.5 --> when Z>=0 $$
+$$ h_\theta(x)=g(\theta^Tx)>= 0.5 --> whenever \theta^Tx>=0 $$  
+$$ g(Z)<0.5 --> when Z<0  $$
+$$ h_\theta(x)=g(\theta^Tx)< 0.5 --> whenever \theta^Tx<0 $$
 
 ![image](https://gypsy-1255824480.cos.ap-beijing.myqcloud.com/ml/e.jpg)
 
